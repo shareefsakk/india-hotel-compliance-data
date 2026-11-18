@@ -1,0 +1,25 @@
+{
+  "dataset": "Form-III (formerly Form C): reporting foreign guests in India",
+  "as_of": "2026-11-17",
+  "license": "CC BY 4.0",
+  "credit": "GuestHawk, https://guesthawk.com/tools/form-iii-deadline",
+  "note": "General information, not legal advice. Your local FRRO is the authority on how the rule applies to your property.",
+  "name": "Form-III",
+  "former_name": "Form C",
+  "law": "Immigration and Foreigners Act, 2025",
+  "in_force_from": "2025-09-01",
+  "deadline_hours_from_arrival": 24,
+  "clock_starts": "guest's arrival (check-in) at the property",
+  "clock_pauses_on_weekends_or_holidays": false,
+  "one_form_per": "foreign guest (each person, including guests sharing a room)",
+  "who_reports": ["hotels", "homestays", "hostels", "guest houses", "private houses taking foreign guests"],
+  "filed_on": "Bureau of Immigration portal, indianfrro.gov.in",
+  "ask_frro": [
+    "whether a separate departure submission is required",
+    "how the rule applies to OCI cardholders and other categories"
+  ],
+  "sources": [
+    { "title": "Bureau of Immigration: Online Form III filing portal (login page; it states the portal is migrating to a new Form III portal)", "url": "https://indianfrro.gov.in/frro/FormC", "checked": "2026-11-17", "supports": "where Form-III is filed" }
+  ],
+  "rule_source_note": "The 24-hour rule comes from the Immigration and Foreigners Act, 2025 and the rules made under it. We have not yet verified an official URL for that text; until we do, see the explanation at https://guesthawk.com/guides/form-iii-for-hotels"
+}

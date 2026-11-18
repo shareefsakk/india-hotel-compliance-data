@@ -1,0 +1,42 @@
+{
+  "dataset": "Official state homestay scheme pages in India",
+  "as_of": "2026-11-17",
+  "license": "CC BY 4.0",
+  "credit": "GuestHawk, https://guesthawk.com/guides/homestay-registration-in-india",
+  "note": "Only entries whose official URL answered HTTP 200 with matching content on the checked date. Schemes change often; confirm with the state tourism department before you apply.",
+  "states": [
+    {
+      "state": "Goa",
+      "scheme": "Homestay and Bed and Breakfast Scheme (2023)",
+      "department": "Department of Tourism, Government of Goa",
+      "source_url": "https://msme.goa.gov.in/home/Scheme-Details/Homestays-and-Bed-and-Breakfast-Scheme",
+      "domain_type": "gov.in",
+      "checked": "2026-11-17"
+    },
+    {
+      "state": "Karnataka",
+      "scheme": "Guidelines for Registration of Homestay Establishments, 2025",
+      "department": "Department of Tourism, Government of Karnataka",
+      "source_url": "https://web-cms.karnatakatourism.org/wp-content/uploads/2026/05/TOR-133-TDO-2025-G-O-COPY-.pdf",
+      "domain_type": "official state tourism site (not gov.in)",
+      "checked": "2026-11-17"
+    },
+    {
+      "state": "Kerala",
+      "scheme": "Guidelines for the Classification and Reclassification of Homestay Units",
+      "department": "Department of Tourism, Government of Kerala",
+      "source_url": "https://www.keralatourism.org/cls/homestays/guidelines.php",
+      "domain_type": "official state tourism site (not gov.in)",
+      "checked": "2026-11-17"
+    },
+    {
+      "state": "Uttarakhand",
+      "scheme": "Deen Dayal Upadhyay Griha Awas (Home Stay) Vikas Yojana",
+      "department": "Uttarakhand Tourism Development Board",
+      "source_url": "https://hsapi.uttarakhandtourism.gov.in/pdfs/generated_pdf_6700e56869596.pdf",
+      "apply_url": "https://homestay.uttarakhandtourism.gov.in/",
+      "domain_type": "gov.in",
+      "checked": "2026-11-17"
+    }
+  ]
+}

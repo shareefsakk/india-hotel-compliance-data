@@ -1,0 +1,37 @@
+{
+  "dataset": "GST on hotel accommodation and restaurant service in India",
+  "as_of": "2026-11-17",
+  "license": "CC BY 4.0",
+  "credit": "GuestHawk, https://guesthawk.com/tools",
+  "note": "General information, not tax advice. Confirm your own case with a chartered accountant.",
+  "accommodation": {
+    "in_force_from": "2025-09-22",
+    "notification": "Notification 15/2025-Central Tax (Rate), dated 17 Sep 2025 (56th GST Council meeting)",
+    "unit_test": "Value of supply of one unit of accommodation per night (the value actually charged, not the rack rate); each room and each night tested separately",
+    "bands": [
+      { "tariff_per_unit_per_night_inr": { "min_exclusive": null, "max_inclusive": 7500 }, "gst_percent": 5, "cgst_percent": 2.5, "sgst_percent": 2.5, "input_tax_credit": false, "mandatory": true },
+      { "tariff_per_unit_per_night_inr": { "min_exclusive": 7500, "max_inclusive": null }, "gst_percent": 18, "cgst_percent": 9, "sgst_percent": 9, "input_tax_credit": true }
+    ],
+    "replaced": "Until 21 Sep 2025, rooms up to ₹7,500 were taxed at the old 12% rate with ITC.",
+    "open_questions": [
+      "Dorm beds: whether the bed or the whole dorm is the unit for the ₹7,500 test is not settled (state advance rulings differ). Ask your CA.",
+      "Breakfast included in the room rate is one composite supply taxed as accommodation; whether the ₹7,500 band is tested including breakfast: ask your CA."
+    ],
+    "sources": [
+      { "title": "PIB: FAQs on the 56th GST Council decisions (Q6, Q7: 5% mandatory, no ITC)", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2167151", "checked": "2026-11-17" },
+      { "title": "GST Council: press release on the 56th meeting recommendations", "url": "https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf", "checked": "2026-11-17" }
+    ]
+  },
+  "restaurant": {
+    "rule": "5% without ITC, except a restaurant in specified premises at 18% with ITC",
+    "rates": [
+      { "where": "not specified premises", "gst_percent": 5, "input_tax_credit": false },
+      { "where": "specified premises", "gst_percent": 18, "input_tax_credit": true }
+    ],
+    "specified_premises_from": "2025-04-01",
+    "specified_premises_test": "For a financial year: a premises that supplied any unit of accommodation above ₹7,500 per unit per day in the preceding financial year, or that the supplier declared (1 Jan to 31 Mar of the preceding year), or that a new registrant declares within 15 days of registration",
+    "sources": [
+      { "title": "Notification 05/2025-Central Tax (Rate): definition of specified premises", "url": "https://gstcouncil.gov.in/sites/default/files/2025-01/ctr05-2025.pdf", "checked": "2026-11-17" }
+    ]
+  }
+}
